@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 const AppStyle = styled.div`
-  border-radius: 8px;
   width: 80%;
   height: 100vh;
   display: flex;
@@ -31,7 +30,6 @@ const AppStyle = styled.div`
     height: 100%;
     width: 150px;
     background-image: linear-gradient(-90deg, black, transparent);
-    /* transition: 0.2s ease; */
   }
   .icon {
     color: rgb(67, 247, 76);
