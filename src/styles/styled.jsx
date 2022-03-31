@@ -6,8 +6,7 @@ const AppStyle = styled.div`
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  border: 2px solid #fff;
+  justify-content: center;
   .container {
     position: relative;
     width: 90%;
@@ -32,7 +31,7 @@ const AppStyle = styled.div`
     height: 100%;
     width: 150px;
     background-image: linear-gradient(-90deg, black, transparent);
-    transition: 0.2s ease;
+    /* transition: 0.2s ease; */
   }
   .icon {
     color: rgb(67, 247, 76);
@@ -73,10 +72,6 @@ export const ScrollContainer = styled.div`
   .child img {
     width: 100%;
     height: 100%;
-  }
-
-  & > h1 {
-    font-size: 30px;
   }
 `;
 export default AppStyle;
